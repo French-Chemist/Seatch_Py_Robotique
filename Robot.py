@@ -1,5 +1,5 @@
 import time
-class Robot:
+class Robot():
     __name = "<unnamed>"
     __power = False
     __current_speed = 0
@@ -46,6 +46,8 @@ class Robot:
     def stop_speed(self):
         self.__current_speed = 0  
 
+    def status(self):
+        print("")
 
 
     @property
